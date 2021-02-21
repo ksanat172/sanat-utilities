@@ -1,1 +1,0 @@
-web:GENERATE_SOURCEMAP=false react-scripts build
