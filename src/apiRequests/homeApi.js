@@ -3,7 +3,7 @@ class HomeAPI {
   constructor() {}
 
   executeAPI(uri, methodType, content = null) {
-    const url = "http://localhost:8000/"+uri;
+    const url = "https://sanat-node-server.herokuapp.com/"+uri;
     return new Promise((resolve, reject) => {
       const method = methodType;
       const request = new XMLHttpRequest();
