@@ -22,7 +22,8 @@
     "web-vitals": "^1.1.0"
   },
   "scripts": {
-    "start": "serve -s build",
+    "start": "react-script start",
+    "build": "GENERATE_SOURCEMAP=false react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
