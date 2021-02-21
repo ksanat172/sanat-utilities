@@ -23,3 +23,8 @@ class HomeAPI {
 
 const homeapi = new HomeAPI();
 export default homeapi;
+
+
+// beforeSend: function (xhr) {
+//   xhr.setRequestHeader ("Authorization", "Basic " + btoa(username + ":" + password));
+// },
